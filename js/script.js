@@ -1,5 +1,10 @@
 console.log('hello world')
 
+var doCoolStuff = function doCoolStuff(){
+	document.getElementById('cool').className = 'cool red';
+
+}
+
 var car = {
 	make: 'VW',
 	type: 'Polo',
